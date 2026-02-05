@@ -1,0 +1,45 @@
+table, th, tr{
+    border: 1px solid black;  
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 650px;
+}
+
+td {
+text-align: center;
+border: 1px solid blue;
+padding: 10px 15px;
+}
+
+thead {
+    text-align: center;
+    background-color: bisque;
+}
+
+tbody th {
+    background-color: aquamarine;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.table-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.table-footer{
+    text-align: center;
+    font-style: italic;
+}
+
+tbody tr:nth-child(even){
+    background-color: gray;
+    color: aliceblue;
+}
